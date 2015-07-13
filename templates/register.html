@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>register</title>
+</head>
+<body>
+  <div id="register">
+    <form action="" method="POST">
+    {% csrf_token %}
+    username<input type="text" name="username"><br/>
+    password<input type="text" name="password"><br/>
+    <button type="submit">submit</button>
+    </form>
+  </div>
+</body>
+</html>
